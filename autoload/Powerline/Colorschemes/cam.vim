@@ -87,8 +87,12 @@ let g:Powerline#Colorschemes#cam#colorscheme = Pl#Colorscheme#Init([
     \ 'i': ['base3'],
     \ }),
   \
-  \ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
+  \ Pl#Hi#Segments(['paste_indicator'], {
     \ 'n': ['base3', 'violet', ['bold']],
+    \ }),
+  \
+  \ Pl#Hi#Segments(['ws_marker'], {
+  \ 'n': ['base3', 'red'],
     \ }),
   \
   \ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
