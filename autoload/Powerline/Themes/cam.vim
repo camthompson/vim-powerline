@@ -9,6 +9,7 @@ let g:Powerline#Themes#cam#theme = Pl#Theme#Create(
     \ , 'tagbar:currenttag'
     \ , Pl#Segment#Split()
     \ , 'fileformat'
+    \ , 'fileencoding'
     \ , 'filetype'
     \ , 'lineinfo'
     \ , 'ws_marker'
