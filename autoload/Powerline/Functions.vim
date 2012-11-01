@@ -136,7 +136,7 @@ function! Powerline#Functions#GetWSMarker() " {{{
     endif
 
     if search('\s$', 'nw') != 0
-      let b:statusline_whitespace_warning .= '\s'
+      let b:statusline_whitespace_warning .= '·'
     endif
 
     let tabs = search('^\t', 'nw') != 0
@@ -145,7 +145,7 @@ function! Powerline#Functions#GetWSMarker() " {{{
     let spaces = search('^ \{' . &ts . ',}[^\t]', 'nw') != 0
 
     if (tabs && spaces) || (spaces && !&et) || (tabs && &et)
-      let b:statusline_whitespace_warning .= '\t'
+      let b:statusline_whitespace_warning .= '▸'
     endif
   endif
   return b:statusline_whitespace_warning
