@@ -71,9 +71,9 @@ let g:Powerline#Colorschemes#cam#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['lineinfo'], {
-    \ 'n': ['base2', 'base1', ['bold']],
-    \ 'N': ['base02', 'base00', ['bold']],
-    \ 'i': ['base2', 'base00', ['bold']],
+    \ 'n': ['base2', 'base01'],
+    \ 'N': ['base02', 'base01'],
+    \ 'i': ['base2', 'base0'],
     \ }),
   \
   \ Pl#Hi#Segments(['errors'], {
