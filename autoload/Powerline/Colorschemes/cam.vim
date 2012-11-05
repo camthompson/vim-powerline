@@ -22,7 +22,7 @@ call Pl#Hi#Allocate({
 
 let g:Powerline#Colorschemes#cam#colorscheme = Pl#Colorscheme#Init([
   \ Pl#Hi#Segments(['SPLIT'], {
-    \ 'n': ['base3', 'base03'],
+    \ 'n': ['base3', 'base02'],
     \ 'N': ['base3', 'base03'],
     \ 'i': ['base3', 'base2'],
     \ }),
@@ -108,21 +108,6 @@ let g:Powerline#Colorschemes#cam#colorscheme = Pl#Colorscheme#Init([
   \ Pl#Hi#Segments(['gundo:SPLIT', 'command_t:SPLIT'], {
     \ 'n': ['base3', 'base02'],
     \ 'N': ['base0', 'base03'],
-    \ }),
-  \
-  \ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-    \ 'n': ['base2', 'green', ['bold']],
-    \ 'N': ['base02', 'base00', ['bold']],
-    \ }),
-  \
-  \ Pl#Hi#Segments(['lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
-    \ 'n': ['base3', 'base01'],
-    \ 'N': ['base02', 'base01'],
-    \ }),
-  \
-  \ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-    \ 'n': ['base2', 'base02'],
-    \ 'N': ['base2', 'base03'],
     \ }),
   \
   \ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
