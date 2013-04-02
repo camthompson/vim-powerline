@@ -42,7 +42,7 @@ let g:Powerline#Colorschemes#cam#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['fileinfo', 'filename'], {
-    \ 'n': ['base2', 'base01', ['bold']],
+    \ 'n': ['base2', 'base02', ['bold']],
     \ 'N': ['base1', 'base02', ['bold']],
     \ 'i': ['base3', 'base1', ['bold']],
     \ }),
